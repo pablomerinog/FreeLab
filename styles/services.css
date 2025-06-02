@@ -5,6 +5,10 @@
     gap: 2rem;
     padding: 2rem;
   }
+
+  .services h2{
+    text-align: center;
+  }
   
   .card {
     background: white;
@@ -27,6 +31,7 @@
   .card h3 {
     margin: 1rem 0;
     font-size: 1.5rem;
+    padding: 15px;
   }
   
   .card p {
