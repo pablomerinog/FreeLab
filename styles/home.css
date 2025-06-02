@@ -23,8 +23,18 @@
   .hero-content {
     z-index: 1;
     animation: fadeIn 2s ease-in-out;
+    
   }
-  
+  .hero-content h1{
+    font-size: 60px;
+    /* border: 1px solid red; */
+  }
+  .hero-content p{
+      font-size: 20px;
+      /* border: 1px solid red; */
+    }
+
+
   @keyframes fadeIn {
     from { opacity: 0; }
     to { opacity: 1; }
