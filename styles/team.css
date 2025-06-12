@@ -32,7 +32,7 @@
     bottom: -100%;
     left: 0;
     right: 0;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(182, 182, 182, 0.7);
     color: white;
     padding: 1rem;
     transition: bottom 0.3s ease;
@@ -41,3 +41,22 @@
   .member:hover .info {
     bottom: 0;
   }
+
+/* Responsivo */
+@media (max-width: 600px) {
+  .member img {
+    height: 250px;
+  }
+
+  .team h2 {
+    font-size: 1.5rem;
+  }
+
+  .member .info h3 {
+    font-size: 1rem;
+  }
+
+  .member .info p {
+    font-size: 0.85rem;
+  }
+}
